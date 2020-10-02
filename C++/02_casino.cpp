@@ -24,7 +24,7 @@ void msg(string m)
 void end(int init, int now)
 {
     if (init == now)
-        cout << "\n\nYou have no gain and no loss.";
+        cout << "\n\nYou have  no  gain  and  no loss.";
     else if (init > now)
         cout << "\n\nYou lost " << init - now;
     else
